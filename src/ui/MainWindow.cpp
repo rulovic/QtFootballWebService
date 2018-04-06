@@ -13,6 +13,8 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
 }
 
 void MainWindow::initUi() {
+    // How to custom QTabWidget tab?
+    // https://stackoverflow.com/questions/47094871/how-to-custom-qtabwidget-tab
     // Setting containers as parents we ensure objects will be destroyed
     QWidget* centralWidget = new QWidget(this);
     QVBoxLayout *mainLayout = new QVBoxLayout(centralWidget);
